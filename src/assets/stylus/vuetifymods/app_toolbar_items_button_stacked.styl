@@ -1,0 +1,27 @@
+  .btn__stacked > div.v-btn__content {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    height: inherit;
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    -webkit-transform: scale(1) translate(0);
+    transform: scale(1) translate(0);
+    white-space: nowrap;
+    will-change: font-size;
+  }
+  
+  .v-btn__stacked.v-btn__dense > div.v-btn__content {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 12px;
+    line-height: .9;
+  }
+
+  .v-btn__stacked.v-btn--active {
+    color: #47959f !important;
+  }
