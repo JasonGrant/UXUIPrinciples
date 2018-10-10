@@ -14,34 +14,34 @@ export const state = {
     mobileSettings: false
   },
   navigationItems: [
-    {
-      name: "Landing",
-      route: "/",
-      fn: null,
-      url: null,
-      icon: "mdi-home-outline"
-    },
-    {
-      name: "Colors",
-      route: "/colors",
-      fn: null,
-      url: null,
-      icon: "mdi-format-color-fill"
-    },
-    {
-      name: "Flip Layout",
-      route: null,
-      fn: "flipLayout",
-      url: null,
-      icon: "mdi-page-layout-header"
-    },
-    {
-      name: "Vue Docs",
-      route: null,
-      fn: null,
-      url: "https://vuejs.org",
-      icon: "mdi-file-document-box-outline"
-    }
+    // {
+    //   name: "Landing",
+    //   route: "/",
+    //   fn: null,
+    //   url: null,
+    //   icon: "mdi-home-outline"
+    // },
+    // {
+    //   name: "Colors",
+    //   route: "/colors",
+    //   fn: null,
+    //   url: null,
+    //   icon: "mdi-format-color-fill"
+    // },
+    // {
+    //   name: "Flip Layout",
+    //   route: null,
+    //   fn: "flipLayout",
+    //   url: null,
+    //   icon: "mdi-page-layout-header"
+    // },
+    // {
+    //   name: "Vue Docs",
+    //   route: null,
+    //   fn: null,
+    //   url: "https://vuejs.org",
+    //   icon: "mdi-file-document-box-outline"
+    // }
   ],
   userMenuItems: [
     {
