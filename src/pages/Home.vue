@@ -9,7 +9,7 @@
           <p class="caption">Synonyms: <span class="body-2">truth, proposition, concept, idea, theory, assumption, fundamental, essential, ground rule</span></p>
           <h3 class="display-1">Coming Soon</h3>
         </v-flex>
-        <span v-html="gestalt.description" />
+        <!-- <span v-html="gestalt.description" /> -->
         <!-- <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5"> -->
         <!-- <blockquote class="headline">
           <i>&#8220;First, solve the problem. Then, write the code.&#8221;</i>
