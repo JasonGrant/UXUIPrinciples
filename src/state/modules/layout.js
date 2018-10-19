@@ -14,13 +14,34 @@ export const state = {
     mobileSettings: false
   },
   navigationItems: [
-    // {
-    //   name: "Landing",
-    //   route: "/",
-    //   fn: null,
-    //   url: null,
-    //   icon: "mdi-home-outline"
-    // },
+    {
+      name: "Landing",
+      route: "/",
+      fn: null,
+      url: null,
+      icon: "mdi-home-outline"
+    },
+    {
+      name: "Cards",
+      route: "/cardstoomany",
+      fn: null,
+      url: null,
+      icon: "mdi-view-sequential"
+    },
+    {
+      name: "Readability",
+      route: "/readabilitylinewidth",
+      fn: null,
+      url: null,
+      icon: "mdi-text-subject"
+    },
+    {
+      name: "Heuristic",
+      route: "/heuristic",
+      fn: null,
+      url: null,
+      icon: "mdi-format-list-checks"
+    }
     // {
     //   name: "Colors",
     //   route: "/colors",

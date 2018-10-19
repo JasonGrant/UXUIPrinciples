@@ -14,6 +14,42 @@ export default new Router({
       component: Home
     },
     {
+      path: "/cardstoomany",
+      name: "cardstoomany",
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "releasenotes" */ "./pages/CardsTooMany.vue")
+    },
+    {
+      path: "/readabilitylinewidth",
+      name: "readabilitylinewidth",
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "releasenotes" */ "./pages/ReadabilityLineWidth.vue")
+    },
+    {
+      path: "/gestaltproximity",
+      name: "gestaltproximity",
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "releasenotes" */ "./pages/GestaltProximity.vue")
+    },
+    {
+      path: "/heuristic",
+      name: "heuristic",
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () =>
+        import(/* webpackChunkName: "releasenotes" */ "./pages/Heuristic.vue")
+    },
+    {
       path: "/releasenotes",
       name: "releasenotes",
       // route level code-splitting
